@@ -1,0 +1,124 @@
+*{
+    position:relative;
+}
+#flowers_compare{
+    overflow: hidden;
+    top:700px;
+    left:15%;
+    width:500px;
+    position:absolute;
+}
+#what_is_it{
+    position:absolute;
+    top:750px;
+    left:55%;
+    width:500px;
+    font-family:Raleway;
+}
+#mountains_compare{
+    position:absolute;
+    overflow: hidden;
+    top:1130px;
+    left:55%;
+    width:500px;
+}
+#for_who{
+    position:absolute;
+    top:1200px;
+    left:15%;
+    width:500px;
+    font-family:Raleway;
+}
+#clouds_picture{
+    position:absolute;
+    width:100%;
+    max-height:400px;
+    top:1630px;
+}
+#blacky{
+    position:absolute;
+    width:100%;
+    top:1630px;
+    background:black;
+    opacity: 0.4;
+    height: 400px;
+}
+#is_it_easy{
+    position:absolute;
+    top:1700px;
+    left:15%;
+    width:450px;
+    font-family:Raleway;
+    color:white;
+}
+#icon_save{
+    position:absolute;
+    top:1700px;
+    left:60%;
+    width:100px;
+}
+#icon_lightroom{
+    position:absolute;
+    top:1700px;
+    left:74%;
+    width:100px;
+}
+#icon_apply{
+    position:absolute;
+    top:1870px;
+    left:74%;
+    width:100px;
+}
+#icon_add{
+    position:absolute;
+    top:1870px;
+    left:60%;
+    width:100px;
+}
+#try_free{
+    position:absolute;
+    top:2130px;
+    left:15%;
+    width:500px;
+    font-family:Raleway;
+}
+#save_button{
+    top:2370px;
+    left:15%;
+    width:300px;
+    height:60px;
+    font-family:Raleway;
+    font-size:20px;
+    font-weight:800;
+    background:black;
+    color:white;
+}
+#twins_compare{
+    position:absolute;
+    overflow: hidden;
+    top:2400px;
+    left:15%;
+    width:200px;
+}
+#poly_compare{
+    position:absolute;
+    overflow: hidden;
+    top:2400px;
+    left:40%;
+    width:300px;
+}
+#girl_compare{
+    position:absolute;
+    overflow: hidden;
+    top:2400px;
+    left:65%;
+    width:200px;
+}
+
+#gallery div{
+    display:none;
+}
+#gallery div:first-child{
+    display:block;
+}
+
