@@ -1,0 +1,55 @@
+html { overflow-x: hidden; }
+#logo{
+    position:absolute;
+    font-size:70px;
+    top:0px;
+    width:100%;
+    text-align:center;
+    font-family:Universe;
+    font-weight:800;
+}
+#navbar{
+    position:absolute;
+    display: inline;
+    width:100%;
+    left:50%;
+    margin-left:-10%;
+    font-family:Raleway;
+    font-size:17px;
+    top:96px;
+    font-weight:600;
+    z-index: 1;
+}
+
+a{  text-decoration: none; padding: 11px;}
+A { color: black; }
+A:visited { color: black; }
+A:active { color: black; }
+
+#logo_picture{
+    position:absolute;
+    width:100%;
+    top:130px;
+}
+.text{
+    font-size:17px;
+    padding: 10px;
+    font-weight:600;
+}
+.headline{
+    font-size:37px;
+    padding: 10px;
+    font-weight:800;
+}
+@font-face {
+    font-family: 'Universe';
+    src: url('../fonts/Universe.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face{
+    font-family:'Raleway';
+    src:url('../fonts/Raleway-Thin.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
