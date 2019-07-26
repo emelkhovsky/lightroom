@@ -114,11 +114,19 @@
     left:65%;
     width:200px;
 }
-
 #gallery div{
     display:none;
 }
 #gallery div:first-child{
     display:block;
 }
-
+#next{
+    top:2200px;
+    left:75%;
+    width:100px;
+}
+#back{
+    top:2200px;
+    left:43%;
+    width:100px;
+}

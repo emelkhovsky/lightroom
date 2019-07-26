@@ -17,6 +17,11 @@
     <title>{%block title%}{%endblock%}</title>
 </head>
 <body>
+<div id = "navbar">
+    <a href = "{{url_for('index')}}">Главная</a>
+    <a href = "{{url_for('presets')}}">Пресеты</a>
+    <a href = "{{url_for('instructions')}}">Инструкция</a>
+</div>
     <div  id = "logo">PRESETS</div>
     <img src = "{{url_for('static', filename = 'images/lake.jpg')}}" id = "logo_picture">
     {%block body%}{%endblock%}
