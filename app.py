@@ -8,13 +8,17 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+
 @app.route("/presets", methods = ['GET', 'POST'])
 def presets():
     return render_template('presets.html')
+
 
 @app.route("/instructions", methods = ['GET', 'POST'])
 def instructions():
     return render_template('instructions.html')
 
+
 if __name__ == "__main__":
+    app.secret_key = '535378835'
     app.run(debug = True)
