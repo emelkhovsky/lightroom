@@ -1,2 +1,56 @@
 {%extends "base.html"%}
 
+{%block style%}
+{{super()}}
+<link rel = "stylesheet" type = text/css href = "{{url_for('static', filename = 'css/instructions_style.css')}}">
+{%endblock%}
+
+{%block body%}
+<div id = "for_phone">
+    <div class = "headline">Для телефона</div>
+    <div class = "text" id = "gallery_phone">
+        <div class = "photos_phone">
+        <div>
+            1.Откройте скачанную папку for_phone и извлекте ее.
+            <img src = "{{url_for('static', filename = 'images/instructions_for_phone/1.jpg')}}">
+        </div>
+        <div>
+            2.Итак, вы получили пресеты.
+            <img src = "{{url_for('static', filename = 'images/instructions_for_phone/2.jpg')}}">
+        </div>
+        <div>
+            3.Откройте приложение lightroom, нажмите кнопку "добавить фотографии" и
+            добавьте картинки с пресетами.
+            <img src = "{{url_for('static', filename = 'images/instructions_for_phone/3.jpg')}}">
+        </div>
+        <div>
+            4.Теперь откройте фото с пресетом и нажмиье кнопку "создать стиль".
+            <img src = "{{url_for('static', filename = 'images/instructions_for_phone/4.jpg')}}">
+        </div>
+        <div>
+            5.Введите любое имя для пресета и нажмите на галочку.
+            <img src = "{{url_for('static', filename = 'images/instructions_for_phone/5.jpg')}}">
+        </div>
+        <div>
+            6.А теперь выберите любое фото, которое хотите преобразить,проверните
+            полосу настроек в право и нажмите на кнопку "стили".
+            <img src = "{{url_for('static', filename = 'images/instructions_for_phone/6.jpg')}}">
+        </div>
+        <div>
+            7.Найдите ваш сохраненный пресет в списке пользовательских пресетов и
+            нажмите на него. Теперь Вы можете сохранить фото : )
+            <img src = "{{url_for('static', filename = 'images/instructions_for_phone/7.jpg')}}">
+        </div>
+        </div>
+        <div id = "buttons_phone">
+            <input type = "button" value = "Назад" class = "back">
+            <input type = "button" value = "вперед" class = "next">
+        </div>
+    </div>
+</div>
+{%endblock%}
+
+{%block script%}
+{{super()}}
+<script src = "{{url_for('static', filename = 'js/instructions_script.js')}}"></script>
+{%endblock%}

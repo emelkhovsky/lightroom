@@ -1,0 +1,15 @@
+#for_phone{
+    position:absolute;
+    top:700px;
+    left:15%;
+    width:600px;
+}
+#for_phone #gallery_phone .photos_phone div{
+    display:none;
+}
+#for_phone #gallery_phone .photos_phone div:first-child{
+    display:block;
+}
+#for_phone #gallery_phone .photos_phone div img{
+    width:400px;
+}
