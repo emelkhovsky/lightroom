@@ -15,15 +15,44 @@
     width:550px;
     padding:10px;
 }
-.back{
+.back_phone{
     width:80px;
     position:absolute;
     top:1000px;
     left:27%;
 }
-.next{
+.next_phone{
     width:80px;
     position:absolute;
     top:1000px;
     left:71%;
+}
+#for_computer{
+    position:absolute;
+    top:1900px;
+    left:23%;
+    width:850px;
+    font-family:Raleway;
+}
+#for_computer #photos_computer div{
+    display:none;
+}
+#for_computer #photos_computer div:first-child{
+    display:block;
+}
+#for_computer #photos_computer div img{
+    width:850px;
+    padding:10px;
+}
+.back_computer{
+    width:80px;
+    position:absolute;
+    top:2200px;
+    left:17%;
+}
+.next_computer{
+    width:80px;
+    position:absolute;
+    top:2200px;
+    left:82%;
 }

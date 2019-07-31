@@ -43,12 +43,59 @@
     </div>
 </div>
 <div class = "buttons_phone">
-    <input type = "image" class = "back" src = "{{url_for('static', filename = 'images/icon_back.png')}}">
-    <input type = "image" class = "next" src = "{{url_for('static', filename = 'images/icon_next.png')}}">
+    <input type = "image" class = "back_phone" src = "{{url_for('static', filename = 'images/icon_back.png')}}">
+    <input type = "image" class = "next_phone" src = "{{url_for('static', filename = 'images/icon_next.png')}}">
+</div>
+
+
+<div id = "for_computer">
+    <div class = "headline">Для компьютера</div>
+    <div class = "text" id = "photos_computer">
+        <div>
+            1 Откройте скачанный zip файл free_presets и извлекте его.
+            <img src = "{{url_for('static', filename = 'images/instructions_for_computer/1.jpg')}}">
+        </div>
+        <div>
+            2 Итак, вы получили пресеты, они в папке for_computer.
+            <img src = "{{url_for('static', filename = 'images/instructions_for_computer/2.jpg')}}">
+        </div>
+        <div>
+            3 Откройте программу lightroom, нажмите кнопку "import photos and video", чтобы
+            добавить фотографию, которую хотите обработать.
+            <img src = "{{url_for('static', filename = 'images/instructions_for_computer/3.jpg')}}">
+        </div>
+        <div>
+            4 Чтобы добавить пресеты, нажмите на кнопку "+" рядом с графой Presets и нажмите "import presets".
+            <img src = "{{url_for('static', filename = 'images/instructions_for_computer/4.jpg')}}">
+        </div>
+        <div>
+            5 Найдите папку с пресетами и добавьте их( можно все вместе, а можно по отдельности ).
+            <img src = "{{url_for('static', filename = 'images/instructions_for_computer/5.jpg')}}">
+        </div>
+        <div>
+            6 Поздравляю, вы добавили пресеты. Чтобы воспользоваться ими, нажмите на стрелочку рядом с графой Presets.
+            Таким же образом разверните графу User presets. Тут будут лежать все Ваши присеты. Нажмите на один из них, чтобы воспользоваться.
+            <img src = "{{url_for('static', filename = 'images/instructions_for_computer/6.jpg')}}">
+        </div>
+         <div>
+            7 Чтобы сохранить обработанное фото, нажмите "export".
+            <img src = "{{url_for('static', filename = 'images/instructions_for_computer/7.jpg')}}">
+        </div>
+        <div>
+            8 В графе File Settings выберите тип файла JPEG, прокрутите ползунок Quality на максимум (он отвечает за качество фото)
+            и нажмите на кнопку "Export".
+            <img src = "{{url_for('static', filename = 'images/instructions_for_computer/8.jpg')}}">
+        </div>
+    </div>
+</div>
+<div class = "buttons_computer">
+    <input type = "image" class = "back_computer" src = "{{url_for('static', filename = 'images/icon_back.png')}}">
+    <input type = "image" class = "next_computer" src = "{{url_for('static', filename = 'images/icon_next.png')}}">
 </div>
 {%endblock%}
 
 {%block script%}
 {{super()}}
-<script src = "{{url_for('static', filename = 'js/instructions_script.js')}}"></script>
+<script src = "{{url_for('static', filename = 'js/instructions_phone_script.js')}}"></script>
+
 {%endblock%}
