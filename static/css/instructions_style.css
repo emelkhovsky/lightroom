@@ -12,4 +12,17 @@
 }
 #for_phone #gallery_phone .photos_phone div img{
     width:400px;
+    padding:10px;
+}
+.back{
+    width:80px;
+    position:absolute;
+    top:1000px;
+    left:10%;
+}
+.next{
+    width:80px;
+    position:absolute;
+    top:1000px;
+    left:44%;
 }

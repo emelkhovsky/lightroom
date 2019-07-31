@@ -42,11 +42,11 @@
             <img src = "{{url_for('static', filename = 'images/instructions_for_phone/7.jpg')}}">
         </div>
         </div>
-        <div id = "buttons_phone">
-            <input type = "button" value = "Назад" class = "back">
-            <input type = "button" value = "вперед" class = "next">
-        </div>
     </div>
+</div>
+<div class = "buttons_phone">
+    <input type = "image" class = "back" src = "{{url_for('static', filename = 'images/icon_back.png')}}">
+    <input type = "image" class = "next" src = "{{url_for('static', filename = 'images/icon_next.png')}}">
 </div>
 {%endblock%}
 
