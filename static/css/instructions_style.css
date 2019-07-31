@@ -1,28 +1,29 @@
 #for_phone{
     position:absolute;
     top:700px;
-    left:15%;
-    width:600px;
+    left:32%;
+    width:550px;
+    font-family:Raleway;
 }
-#for_phone #gallery_phone .photos_phone div{
+#for_phone #photos_phone div{
     display:none;
 }
-#for_phone #gallery_phone .photos_phone div:first-child{
+#for_phone #photos_phone div:first-child{
     display:block;
 }
-#for_phone #gallery_phone .photos_phone div img{
-    width:400px;
+#for_phone #photos_phone div img{
+    width:550px;
     padding:10px;
 }
 .back{
     width:80px;
     position:absolute;
     top:1000px;
-    left:10%;
+    left:27%;
 }
 .next{
     width:80px;
     position:absolute;
     top:1000px;
-    left:44%;
+    left:71%;
 }

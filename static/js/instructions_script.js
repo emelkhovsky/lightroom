@@ -1,7 +1,7 @@
 window.onload = function(){
     var button_back = document.querySelector(".buttons_phone .back");
     var button_next = document.querySelector(".buttons_phone .next");
-    var blocks = document.querySelectorAll("#for_phone #gallery_phone .photos_phone div")
+    var blocks = document.querySelectorAll("#for_phone #photos_phone div")
     var index = 0;
     button_back.addEventListener("click", function(){
         blocks[index].style.display = "none";
