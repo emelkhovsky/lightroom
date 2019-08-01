@@ -90,10 +90,26 @@
         $('#poly_compare').twentytwenty();
         $('#girl_compare').twentytwenty();
     </script>
-    <input type = "image" src = "{{url_for('static', filename = 'images/icon_next.png')}}" id = "next">
-    <input type = "image" src = "{{url_for('static', filename = 'images/icon_back.png')}}" id = "back">
 </div>
 <!--сравнение для бесплатных пресетов конец-->
+    <img src = "{{url_for('static', filename = 'images/icon_instructions.png')}}" id = "icon_instructions">
+    <div class = "text" id = "insructions_predtext">
+        Нажимте на кнопку и вы перейдете на страничку подробных инструкций для телефона и компьютера.
+    </div>
+    <a href = "{{url_for('instructions')}}">
+        <button id = "instructions_button">Перейти к инструкциям</button>
+    </a>
+    <img src = "{{url_for('static', filename = 'images/forest.jpg')}}" id = "forest_picture">
+    <div id = "blacky2"></div>
+    <div id = "want_to_presets">
+        <div class = "headline" >ХОТИТЕ БОЛЬШЕ ПРЕСЕТОВ?</div>
+        <div class = "text">
+            Тогда перейдите в раздел Пресеты или просто нажмите на кнопку, чтобы перейти туда.
+        </div>
+        <a href = "{{url_for('presets')}}">
+            <button id = "presets_button">Перейти к пресетам</button>
+        </a>
+    </div>
 {%endblock%}
 
 {%block script%}

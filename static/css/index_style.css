@@ -96,37 +96,81 @@
 #twins_compare{
     position:absolute;
     overflow: hidden;
-    top:2400px;
+    top:2450px;
     left:15%;
-    width:200px;
+    width:250px;
+    margin:10px;
 }
 #poly_compare{
     position:absolute;
     overflow: hidden;
-    top:2400px;
-    left:40%;
-    width:300px;
+    top:2080px;
+    left:55%;
+    width:450px;
 }
 #girl_compare{
     position:absolute;
     overflow: hidden;
-    top:2400px;
-    left:65%;
-    width:200px;
+    top:2450px;
+    left:35%;
+    width:233px;
+    margin:10px;
 }
-#gallery div{
-    display:none;
-}
-#gallery div:first-child{
-    display:block;
-}
-#next{
-    top:2200px;
-    left:75%;
+#icon_instructions{
+    position:absolute;
+    top:2550px;
+    left:67%;
     width:100px;
 }
-#back{
-    top:2200px;
-    left:43%;
-    width:100px;
+#instructions_button{
+    top:2670px;
+    left:60%;
+    width:300px;
+    height:60px;
+    font-family:Raleway;
+    font-size:20px;
+    font-weight:800;
+    background:black;
+    color:white;
+}
+#insructions_predtext{
+    position:absolute;
+    top:2640px;
+    left:60%;
+    width:300px;
+    font-family:Raleway;
+}
+#forest_picture{
+    position:absolute;
+    width:100%;
+    max-height:350px;
+    top:2900px;
+    left:0%;
+}
+#blacky2{
+    position:absolute;
+    width:100%;
+    top:2900px;
+    background:black;
+    opacity: 0.4;
+    height: 340px;
+}
+#want_to_presets{
+    text-align:center;
+    position:absolute;
+    top:3000px;
+    left:23%;
+    width:800px;
+    font-family:Raleway;
+    color:white;
+}
+#presets_button{
+    top:10px;
+    width:300px;
+    height:60px;
+    font-family:Raleway;
+    font-size:20px;
+    font-weight:800;
+    background-color:transparent;
+    color:white;
 }
