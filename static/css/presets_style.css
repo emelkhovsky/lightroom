@@ -1,0 +1,49 @@
+#presets_text{
+    position:absolute;
+    text-align:center;
+    font-family:Raleway;
+    top:670px;
+    left:43%;
+}
+#pay1{
+    position:absolute;
+    overflow: hidden;
+    top:800px;
+    left:18%;
+    width:233px;
+}
+#pay2{
+    position:absolute;
+    overflow: hidden;
+    top:800px;
+    left:42%;
+    width:233px;
+}
+#pay3{
+    position:absolute;
+    overflow: hidden;
+    top:800px;
+    left:65%;
+    width:233px;
+}
+#pay4{
+    position:absolute;
+    overflow: hidden;
+    top:1300px;
+    left:18%;
+    width:233px;
+}
+#pay5{
+    position:absolute;
+    overflow: hidden;
+    top:1300px;
+    left:42%;
+    width:233px;
+}
+#pay6{
+    position:absolute;
+    overflow: hidden;
+    top:1300px;
+    left:65%;
+    width:233px;
+}
