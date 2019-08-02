@@ -47,3 +47,55 @@
     left:65%;
     width:233px;
 }
+.download_presets_button{
+    width:300px;
+    height:60px;
+    font-family:Raleway;
+    font-size:20px;
+    font-weight:800;
+    background-color:transparent;
+    color:black;
+    border: 3px solid black;
+}
+#pay1_button{
+    position:absolute;
+    top:1115px;
+    left:18%;
+    width:233px;
+}
+#pay2_button{
+    position:absolute;
+    top:1115px;
+    left:42%;
+    width:233px;
+}
+#pay3_button{
+    position:absolute;
+    top:1115px;
+    left:65%;
+    width:233px;
+}
+#pay4_button{
+    position:absolute;
+    overflow: hidden;
+    top:1610px;
+    left:18%;
+    width:233px;
+    margin-bottom:10px;
+}
+#pay5_button{
+    position:absolute;
+    overflow: hidden;
+    top:1610px;
+    left:42%;
+    width:233px;
+    margin-bottom:10px;
+}
+#pay6_button{
+    position:absolute;
+    overflow: hidden;
+    top:1610px;
+    left:65%;
+    width:233px;
+    margin-bottom:10px;
+}
