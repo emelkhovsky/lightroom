@@ -11,7 +11,7 @@ If you have problems with comparing blocks loading, try CTRL+R, it must help to 
 
 There are some examples:
 
-https://github.com/emelkhovsky/lightroom/blob/master/examples/1.jpg
+![Image alt]https://github.com/emelkhovsky/lightroom/blob/master/examples/1.jpg
 https://github.com/emelkhovsky/lightroom/blob/master/examples/2.jpg
 https://github.com/emelkhovsky/lightroom/blob/master/examples/3.jpg
 https://github.com/emelkhovsky/lightroom/blob/master/examples/4.jpg
