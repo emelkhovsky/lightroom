@@ -5,7 +5,7 @@ It includes these subpages:
 * presets page(where you can download presets)
 * instructions page(where you can find instructions for phone and computer)
 
-It has a comparing blocks created with plugin ***TwentyTwenty*** and galleries(on one's own) created with javascript. 
+It has comparing blocks created with plugin ***TwentyTwenty*** and galleries(on my own) created with javascript. 
 
 If you have problems with comparing blocks loading, try CTRL+R, it must help to solve this problem.
 
